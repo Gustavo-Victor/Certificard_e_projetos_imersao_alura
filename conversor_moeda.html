@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imersão Dev - Aula 01</title>
+        
+        <!--LINK CSS-->
+        <link rel="stylesheet" href="css/conversor_moeda.css" type="text/css">
+    </head>
+    <body>
+
+        <!--CONTAINER PRINCIPAL-->
+        <div class="container">
+            
+            <!--TÍTULO-->
+            <h1 class="page-title">
+            Conversor de Moedas
+            </h1>
+
+            <!--SUBTÍTULO-->
+            <p class="page-subtitle">
+            Descubra os valores em dolar U$
+            </p>
+
+            <!--FORMULÁRIO PARA INSERÇÃO DE DADOS-->
+            <div id="form">
+                <input type="number" value="" required="required" min="0" id="cotacao" name="cotacao" placeholder="Cotação do dólar atualmente (R$)...">
+                <input type="number" value="" required="required" min="0" id="dolar" name="dolar" placeholder="Valor em dólares (US$)...">
+                <input type="submit" value="Enviar" id="enviar" name="enviar" onclick="converterMoeda()">
+            </div>
+
+            <!--IMAGEM-->
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        </div>
+
+        <!--BOTÃO PARA VOLTAR-->
+        <a href="index.html"><img src="img/back3.png" class='btn-voltar' alt="Voltar"></a>
+
+        <!--LOGO-->
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+
+
+        <!--LINK JS-->
+        <script type="text/javascript" src="js/conversor_moeda.js"></script>
+
+    </body>
+</html>
+
